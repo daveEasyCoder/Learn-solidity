@@ -1,28 +1,95 @@
 # Blockchain Group Assignment - Solidity Course
 
-This repository is for the group laboratory assignment (6 members, 10% weighting).
+This repository contains the Solidity practice and lab work for the group assignment in the Alchemy University Learn Solidity track.
 
 ## Team Members
--
--
--
--
--
--
+-  
+-  
+-  
+-  
+-  
+-  
 
 ## GitHub Contributors
--
--
--
--
--
--
+-  
+-  
+-  
+-  
+-  
+-  
 
-## Assignment Requirements Coverage
-- Course materials are stored in `materials/`.
-- Course codebases are stored in `course-work/`.
-- Progress/completion screenshots are stored in `screenshots/`.
-- Supporting documentation is stored in `docs/`.
+> The team member section above is intentionally left blank so the final member names and GitHub repository links can be added later.
+
+## Project Overview
+The repository is organized around each group member's Solidity practice submissions. Each member folder contains completed or in-progress code examples for core Solidity topics, including functions, data types, contracts, inheritance, mappings, Ether transfers, and escrow-related examples.
+
+## Repository Layout
+- `Learn solidity/` - main project folder containing all member code submissions.
+  - `member1_dawit/` - practice code organized under `codebases/`.
+  - `member2/` - practice code organized under `codebases/`.
+  - `member2_Abdulhafiz/` - individual exercises for arrays and escrow.
+  - `member3_Ezraleye/` - practice folder with multiple Solidity topic examples.
+  - `member4_Bereket/` - example contracts for escrow, inheritance, mapping, voting, and structs.
+  - `member4_mulugeta_task/` - comprehensive practice folder with the standard Solidity topic exercises.
+
+## Member Folder Summary
+### `member1_dawit/codebases/`
+- `calling_contract/`
+- `data_types/`
+- `reverting_transactions/`
+- `sendig-Ether/`
+- `solidity_function/`
+
+### `member2/codebases/`
+- `calling_contract/`
+- `data_types/`
+- `reverting_transactions/`
+- `sending-Ether/`
+- `solidity_function/`
+
+### `member2_Abdulhafiz/`
+- `Array/`
+- `Escrow/`
+- `completion screenshot/`
+
+### `member3_Ezraleye/Practise_folder/`
+- `Array/`
+- `Calldata/`
+- `Data_types/`
+- `Escrow/`
+- `Inheritance/`
+- `Mapping/`
+- `Reverting_transaction/`
+- `Sending_ether/`
+- `Structs/`
+- `Voting/`
+
+### `member4_Bereket/`
+- `Escrow/`
+- `Inheritance/`
+- `Mapping/`
+- `Voting/`
+- `struct/`
+- `task completion screenshots/`
+
+### `member4_mulugeta_task/`
+- `Array/`
+- `Escrow/`
+- `Mapping/`
+- `Structs/`
+- `Voting/`
+- `calling_contract/`
+- `data_types/`
+- `inheritance/`
+- `reverting_transactions/`
+- `sending_Ether/`
+- `solidity_function/`
+- `task_completion_images/`
+
+## Notes on Codebase Contents
+- The repository is structured per member, so each folder represents an individual contribution to the group assignment.
+- Most folders include a Solidity contract file named `Contract.sol`, `Escrow.sol`, `Inheritance.sol`, `Mapping.sol`, or `voting.sol` depending on the topic.
+- The nested folders cover standard learning topics from the course, including contract interactions, basic data types, error handling, Ether transfers, arrays, mappings, structs, voting, and escrow patterns.
 
 ## Course Track
 Chosen track: Alchemy University Learn Solidity
@@ -32,22 +99,6 @@ https://www.alchemy.com/university/courses/solidity
 
 ## Contribution Rule
 Every member must make public commits to this repository.
-
-## Repository Structure
-- `materials/` - notes, prompts, and allowed course resources
-// SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.20;
-
-import "forge-std/console.sol";
-
-contract Contract {
-    function winningNumber(string calldata secretMessage) external returns(uint) {
-        console.log(secretMessage);
-        return 794;
-    }
-}- `course-work/` - Solidity practice and project code by module
-- `screenshots/` - progress/completion screenshots by member
-- `docs/` - checklist and planning documents
 
 ## Submission
 - Deliverable: GitHub repository link
