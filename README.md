@@ -1,12 +1,22 @@
 # Blockchain Group Assignment - Solidity Course
 
-This repository is for the group laboratory assignment (5 members, 10% weighting).
+This repository is for the group laboratory assignment (6 members, 10% weighting).
 
 ## Team Members
-
+-
+-
+-
+-
+-
+-
 
 ## GitHub Contributors
-
+-
+-
+-
+-
+-
+-
 
 ## Assignment Requirements Coverage
 - Course materials are stored in `materials/`.
