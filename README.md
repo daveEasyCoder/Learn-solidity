@@ -26,7 +26,6 @@ The repository is organized around each group member's Solidity practice submiss
 ## Repository Layout
 - `Learn solidity/` - main project folder containing all member code submissions.
   - `member1_dawit/` - practice code organized under `codebases/`.
-  - `member2/` - practice code organized under `codebases/`.
   - `member2_Abdulhafiz/` - individual exercises for arrays and escrow.
   - `member3_Ezraleye/` - practice folder with multiple Solidity topic examples.
   - `member4_Bereket/` - example contracts for escrow, inheritance, mapping, voting, and structs.
