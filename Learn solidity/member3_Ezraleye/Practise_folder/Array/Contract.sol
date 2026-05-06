@@ -1,82 +1,109 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
+pragma solidity 0.8.20;
 
-// 1: Booleans
+// 1: Fixed Sum
 contract Contract {
-	bool public a = true;
-    bool public b = false;
-}
-
-
-// 2: Unsigned Integers 
-contract Contract {
-    uint8 public a = 120;    
-    uint16 public b = 300;   
-    uint256 public sum = uint256(a) + uint256(b);
-}
-
-
-// 3: Signed Integers 
-contract Contract {
-    int8 public a = 50;    
-    int8 public b = -30;  
-
-    int16 public difference = int16(a - b >= 0 ? a - b : b - a);
-}
-
-// 4: String Literals
-contract Contract {
-	bytes32 public msg1 = "Hello World"; 
-    string public msg2 = "Hello World from Solidity programming world";
-}
-
-// 5: Enum
-contract Contract {
-    enum Foods { Apple, Pizza, Bagel, Banana }
-
-	Foods public food1 = Foods.Apple;
-	Foods public food2 = Foods.Pizza;
-	Foods public food3 = Foods.Bagel;
-	Foods public food4 = Foods.Banana;
-}
-
-// Arguments
-contract Contract {
-    uint public x;
-    constructor(uint _x) {
-        x = _x;
+    function sum(uint[5] memory numbers) external pure returns (uint) {
+        uint total = 0;
+        for (uint i = 0; i < 5; i++) {
+            total += numbers[i];
+        }
+        return total;
     }
 }
 
-// Increment
+// 2: Dynamic Sum
 contract Contract {
-    uint public x;
-    constructor(uint _x) {
-        x = _x;
-    }
-    function increment() external {
-        x += 1;
+    function sum(uint[] calldata numbers) external pure returns (uint) {
+        uint total = 0;
+        for (uint i = 0; i < numbers.length; i++) {
+            total += numbers[i];
+        }
+        return total;
     }
 }
 
-// View Addition
+// 3: Filter to Storage
 contract Contract {
-    uint public x;
-    constructor(uint _x) {
-        x = _x;
-    }
-    function increment() external {
-        x += 1;
-    }
-    function add(uint _value) external view returns(uint) {
-        return x + _value;
+    uint[] public evenNumbers;
+
+    function filterEven(uint[] calldata numbers) external {
+        for (uint i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2 == 0) {
+                evenNumbers.push(numbers[i]);
+            }
+        }
     }
 }
 
-// Console Log
+// 4: Filter to Memory
 contract Contract {
-    function winningNumber(string calldata secretMessage) external returns(uint) {
-        console.log(secretMessage);
-        return 794;
+    function filterEven(uint[] calldata numbers) external pure returns (uint[] memory) {
+        uint count = 0;
+        for (uint i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2 == 0) {
+                count++;
+            }
+        }
+
+        uint[] memory evens = new uint[](count);
+        uint idx = 0;
+        for (uint i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2 == 0) {
+                evens[idx] = numbers[i];
+                idx++;
+            }
+        }
+
+        return evens;
+    }
+}
+
+// 5: Stack Club 1
+contract StackClub {
+    address[] public members;
+
+    function addMember(address newMember) external {
+        members.push(newMember);
+    }
+
+    function isMember(address addr) public view returns (bool) {
+        for (uint i = 0; i < members.length; i++) {
+            if (members[i] == addr) {
+                return true;
+            }
+        }
+        return false;
+    }
+}
+
+// 6: Stack Club 2
+contract StackClub {
+    address[] public members;
+
+    constructor() {
+        members.push(msg.sender);
+    }
+
+    modifier onlyMember() {
+        require(isMember(msg.sender));
+        _;
+    }
+
+    function addMember(address newMember) external onlyMember {
+        members.push(newMember);
+    }
+
+    function removeLastMember() external onlyMember {
+        members.pop();
+    }
+
+    function isMember(address addr) public view returns (bool) {
+        for (uint i = 0; i < members.length; i++) {
+            if (members[i] == addr) {
+                return true;
+            }
+        }
+        return false;
     }
 }
