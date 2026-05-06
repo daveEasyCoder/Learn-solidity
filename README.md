@@ -4,7 +4,7 @@ This repository contains the Solidity practice and lab work for the group assign
 
 ## Team Members
 -  Dawit Tiruneh      `-------------------------`       ugr/30393/15
--  
+-  Abdurahman Elias      `-------------------------`     ugr/30039/15  
 -  
 -  
 -  
@@ -18,7 +18,7 @@ This repository contains the Solidity practice and lab work for the group assign
 -  
 -  
 
-> The team member section above is intentionally left blank so the final member names and GitHub repository links can be added later.
+> Add remaining member names, student IDs, and GitHub repository links in the sections above as they are finalized.
 
 ## Project Overview
 The repository is organized around each group member's Solidity practice submissions. Each member folder contains completed or in-progress code examples for core Solidity topics, including functions, data types, contracts, inheritance, mappings, Ether transfers, and escrow-related examples.
@@ -30,6 +30,8 @@ The repository is organized around each group member's Solidity practice submiss
   - `member3_Ezraleye/` - practice folder with multiple Solidity topic examples.
   - `member4_Bereket/` - example contracts for escrow, inheritance, mapping, voting, and structs.
   - `member4_mulugeta_task/` - comprehensive practice folder with the standard Solidity topic exercises.
+  - `member5_Abdurahman Elias/` - comprehensive practice folder with the standard Solidity topic exercises.
+
 
 ## Member Folder Summary
 ### `member1_dawit/codebases/`
