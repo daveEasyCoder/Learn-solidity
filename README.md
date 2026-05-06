@@ -3,7 +3,7 @@
 This repository contains the Solidity practice and lab work for the group assignment in the Alchemy University Learn Solidity track.
 
 ## Team Members
--  Dawit Tiruneh      `                      `       ugr/30393/15
+-  Dawit Tiruneh      `-------------------------`       ugr/30393/15
 -  
 -  
 -  
