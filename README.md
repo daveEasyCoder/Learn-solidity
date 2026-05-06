@@ -38,6 +38,12 @@ The repository is organized around each group member's Solidity practice submiss
 - `data_types/`
 - `reverting_transactions/`
 - `sendig-Ether/`
+- `arrays/`
+- `escrow/`
+- `mapping/`
+- `structs/`
+- `voting_contract/`
+- `inheritance/`
 - `solidity_function/`
 
 ### `member2/codebases/`
