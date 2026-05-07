@@ -30,8 +30,7 @@ The repository is organized around each group member's Solidity practice submiss
   - `member3_Ezraleye/` - practice folder with multiple Solidity topic examples.
   - `member4_Bereket/` - example contracts for escrow, inheritance, mapping, voting, and structs.
   - `member4_mulugeta_task/` - comprehensive practice folder with the standard Solidity topic exercises.
-  - `member5_Abdurahman Elias/` - comprehensive practice folder with the standard Solidity topic exercises.
-
+  - `member5_Abdurahman Elias/` -practice individual exercises 
 
 ## Member Folder Summary
 ### `member1_dawit/codebases/`
