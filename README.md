@@ -3,15 +3,15 @@
 This repository contains the Solidity practice and lab work for the group assignment in the Alchemy University Learn Solidity track.
 
 ## Team Members
--  Dawit Tiruneh      `-------------------------`        ugr/30393/15
--  Abdurahman Elias      `-------------------------`     ugr/30039/15  
--  Mulugeta Abeje     `------------------------------`   ugr/30972/15
+-  Dawit Tiruneh      `-----------------------`     ugr/30393/15
+-  Abdurahman Elias   `-----------------------`     ugr/30039/15  
+-  Mulugeta Abeje     `-----------------------`     ugr/30972/15
 -  
 -  
 -  
 
 ## GitHub Contributors
--  
+-  https://github.com/daveEasyCoder/Learn-solidity/tree/main/Learn%20solidity/member4_mulugeta_task
 -  
 -  
 -  
