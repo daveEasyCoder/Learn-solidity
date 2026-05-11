@@ -6,19 +6,19 @@ This repository contains the Solidity practice and lab work for the group assign
 -  Dawit Tiruneh      `-----------------------`     ugr/30393/15
 -  Abdurahman Elias   `-----------------------`     ugr/30039/15  
 -  Mulugeta Abeje     `-----------------------`     ugr/30972/15
--  
+-  Abdulhafiz Redwan  `-----------------------`     ugr/30028/15
 -  
 -  
 
 ## GitHub Contributors
 -  https://github.com/daveEasyCoder/Learn-solidity/tree/main/Learn%20solidity/member4_mulugeta_task
--  
+-  https://github.com/Redwa10
 -  
 -  
 -  
 -  
 
-> Add remaining member names, student IDs, and GitHub repository links in the sections above as they are finalized.
+
 
 ## Project Overview
 The repository is organized around each group member's Solidity practice submissions. Each member folder contains completed or in-progress code examples for core Solidity topics, including functions, data types, contracts, inheritance, mappings, Ether transfers, and escrow-related examples.
@@ -46,12 +46,6 @@ The repository is organized around each group member's Solidity practice submiss
 - `inheritance/`
 - `solidity_function/`
 
-### `member2/codebases/`
-- `calling_contract/`
-- `data_types/`
-- `reverting_transactions/`
-- `sending-Ether/`
-- `solidity_function/`
 
 ### `member2_Abdulhafiz/`
 - `Array/`
